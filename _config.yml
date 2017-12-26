@@ -1,1 +1,20 @@
 theme: jekyll-theme-cayman
+
+# Setup
+title:        Troll Purse Dev Blog
+tagline:      Development stories from beneath the bridge.
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       Various Trolls
+  url:        http://trollpurse.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
