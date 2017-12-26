@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: New Blog Good To Go!
 ---
 
 # We are good to go
