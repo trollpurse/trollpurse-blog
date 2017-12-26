@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Who is this anyways?
 
-### More Information
+### Troll Purse
 
-A place to include any other types of information that you'd like to include about yourself.
+Troll Purse is a small game developer and publishing shop found in Milwaukee, WI. We consist mostly of hobbyist developers and artists who just want to create something for you to enjoy.
 
-### Contact me
+### Contact us
 
-[email@domain.com](mailto:email@domain.com)
+[sales@trollpurse.com](mailto:sales@trollpurse.com)
