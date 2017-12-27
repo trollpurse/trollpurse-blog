@@ -1,4 +1,4 @@
-Recently, Troll Purse made the decision to migrate from the cloud in Digital Ocean to Amazon Web Services for cloud and website services. There were several reasons behind this critical decision. These reasons are infrastructure, flexibility, and future plans.
+Recently, Troll Purse made the decision to migrate from the cloud in [Digital Ocean](https://www.digitalocean.com/) to [Amazon Web Services](https://aws.amazon.com/) for cloud and website services. There were several reasons behind this critical decision. These reasons are infrastructure, flexibility, and future plans.
 
 ![Image of AWS logo and Digital Ocean logo, side by side.](https://raw.githubusercontent.com/trollpurse/trollpurse-blog/master/images/aws-v-do.png "AWS over Digital Ocean")
 
@@ -8,17 +8,19 @@ Digital Ocean has a nice setup. They have a slick looking User Interface, easy t
 
 ### Cost
 
-Digital Ocean was not overly expensive. However, their base monthly rate ($5 / month + $1 / month for backups), was still higher than hosting a static website on AWS. AWS charges $0.50 / month for Route 53 (DNS Name Servers) and a variable cost for S3 storage of our static website content. Based on traffic trends, the variable costs of AWS were a huge benefit. Finally, it helps that AWS offers a full year of various resources for free.
+Digital Ocean was not overly expensive. However, their base monthly rate ($5 / month + $1 / month for backups), was still higher than hosting a static website on AWS. This is because, to host a static website and blog, Digital Ocean acheives this via [Droplets](https://www.digitalocean.com/products/compute/). This does not scale the wallet very well - especially if traffic started to boom. Digital Ocean only offers referral bonuses. So, if we were famous - we could potentially host everything for free. Big gamble at this moment.
+
+AWS charges $0.50 / month for [Route 53](https://aws.amazon.com/route53/) (DNS Name Servers) and a variable cost for [S3](https://aws.amazon.com/s3/) storage of our static website content. Based on traffic trends, the variable costs of AWS were a huge benefit. Finally, it helps that AWS offers a full year of various resources for free.
 
 ### Continuous Delivery
 
-Digital Ocean had a lot of APIs for Continous Delivery of our website, but it didn't offer a full suite of solutions for proper Developer Operations. Digital Ocean would require a lot of extra Developer Operations overhead writing build and deployment scripts using their APIs. AWS integrates with Bitbucket and Github - two services we use for source control. AWS also offers managed build and deployment services that Troll Purse will be leveraging.
+Digital Ocean had a lot of APIs for Continous Delivery of our website, but it didn't offer a full suite of solutions for proper Developer Operations. Digital Ocean would require a lot of extra Developer Operations overhead writing build and deployment scripts using their [APIs](https://developers.digitalocean.com/documentation/v2/). AWS integrates with [Bitbucket](https://bitbucket.org/) and [Github](https://github.com/) - two services we use for source control. AWS also offers managed build and deployment services that Troll Purse will be leveraging.
 
 ### Architecture
 
 Digital Ocean is limited to [Droplets](https://www.digitalocean.com/products/compute/). This pales in comparison to AWS's robust [EC2](https://aws.amazon.com/ec2/), [ECS](https://aws.amazon.com/ecs/), or [serverless](https://aws.amazon.com/serverless/) services. In AWS, Troll Purse can decouple services and code for various solutions. To do the same distributed computing in Digital Ocean as Troll Purse is enabled to do in AWS would require a significant investment in architecting infrastructure. In AWS, this is vastly done for Troll Purse - once an architecture is designed, only configuration of the services need to be done.
 
-With Digital Ocean, Troll Purse had to setup an Nginx server for serving static website content. It did not scale well as all content was stored on that server. In AWS, Troll Purse can distribute web content using Cloud Front for CDN and server static content from S3. Totally "serverless" and decoupled from the blogging platform and the forum servers (the latter is yet to be deployed).
+With Digital Ocean, Troll Purse had to setup an [Nginx](https://www.nginx.com/) server for serving static website content. It did not scale well (without more invested time in building an architecture and more configurations) as all content was stored on that server. In AWS, Troll Purse can distribute web content using Cloud Front for CDN and server static content from S3. Totally [serverless](https://aws.amazon.com/serverless/) and decoupled from the blogging platform and the forum servers (the latter is yet to be deployed).
 
 ## Flexibility
 
