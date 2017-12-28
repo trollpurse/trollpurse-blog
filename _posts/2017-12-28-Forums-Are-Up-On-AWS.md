@@ -21,7 +21,8 @@ Below are examples Troll Purse Built up to help restrict access to an S3 bucket.
 
 #### S3 Bucket Policy
 
-```json
+``` json
+
 {
     "Version": "2012-10-17",
     "Id": "website access bucket Policy",
@@ -65,11 +66,13 @@ Below are examples Troll Purse Built up to help restrict access to an S3 bucket.
         }
     ]
 }
+
 ```
 
 #### S3 CORS Policy
 
-```xml
+``` xml
+
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
@@ -82,6 +85,7 @@ Below are examples Troll Purse Built up to help restrict access to an S3 bucket.
     <AllowedHeader>Authorization</AllowedHeader>
 </CORSRule>
 </CORSConfiguration>
+
 ```
 
 ### Redis Configuration
