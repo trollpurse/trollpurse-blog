@@ -9,7 +9,7 @@ After our migration to [AWS](https://aws.amazon.com), [Troll Purse](http://troll
 
 ## How To
 
-We decided to share with you how Troll Purse went about setting up this deployment.
+Troll Purse decided to share with you how to set up this type of environment.
 
 ### S3 Configuration
 
@@ -20,6 +20,7 @@ S3 on the otherhand, required configuration to allow access from http://forums.t
 Below are examples Troll Purse Built up to help restrict access to an S3 bucket. Note, AWS will still mark it as public. However, there was a configuration that allowed public GET without S3 being marked public.
 
 #### S3 Bucket Policy
+
 ```json
 {
     "Version": "2012-10-17",
@@ -67,6 +68,7 @@ Below are examples Troll Purse Built up to help restrict access to an S3 bucket.
 ```
 
 #### S3 CORS Policy
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
@@ -88,7 +90,7 @@ For [Redis](https://redis.io/), Troll Purse used default configurations provided
 
 ### VPC Configuration
 
-AWS VPC is great for creating logically segregated services for an environment.
+[AWS VPC](https://aws.amazon.com/vpc/) is great for creating logically segregated services for an environment.
 
 #### Subnets
 
