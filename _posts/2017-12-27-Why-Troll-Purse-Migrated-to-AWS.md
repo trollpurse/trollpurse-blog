@@ -1,3 +1,8 @@
+---
+layout: post
+title: Why Troll Purse Migrated to AWS
+---
+
 Recently, Troll Purse made the decision to migrate from the cloud in [Digital Ocean](https://www.digitalocean.com/) to [Amazon Web Services](https://aws.amazon.com/) for cloud and website services. There were several reasons behind this critical decision. These reasons are infrastructure, flexibility, and future plans.
 
 ![Image of AWS logo and Digital Ocean logo, side by side.](https://raw.githubusercontent.com/trollpurse/trollpurse-blog/master/images/aws-v-do.png "AWS over Digital Ocean")
