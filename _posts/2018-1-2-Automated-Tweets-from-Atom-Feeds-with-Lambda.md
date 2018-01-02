@@ -3,11 +3,9 @@ type: post
 title: Automated Tweets from Atom Feeds with Lambda
 ---
 
-# The Problem to Solve
-
 As mentioned before, Troll Purse loves automation. One process at Troll Purse that was not automated was the Tweeting of Blog updates to the [Troll Purse Twitter account](https://www.twitter.com/trollpruse/). Orignally, Troll Purse used [Hoot Suite](https://www.hootsuite.com) to send out updates to multiple social channels at once. This was still a manual process that took time for something so repetitive. 
 
-# The Solution
+# Solving the Problem
 
 While Hoot Suite is still useful, Troll Purse set up an environment using [AWS Lambda](https://aws.amazon.com/lambda/) and [AWS SNS](https://aws.amazon.com/sns/).
 
