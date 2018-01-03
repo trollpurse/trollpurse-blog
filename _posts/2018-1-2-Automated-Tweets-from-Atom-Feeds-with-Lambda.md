@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automated Tweets from Atom Feeds with Lambda
-image: http://drive.google.com/uc?export=view&id=14a46XxEQtMl1t3Mh9-xDm4nsJLwz4nY3
+image: https://raw.githubusercontent.com/trollpurse/trollpurse-blog/master/images/trollpurse-blog-automation-diagram.png
 ---
 
 As mentioned before, Troll Purse loves automation. One process at Troll Purse that was not automated was the Tweeting of Blog updates to the [Troll Purse Twitter account](https://www.twitter.com/trollpruse/). Orignally, Troll Purse used [Hoot Suite](https://www.hootsuite.com) to send out updates to multiple social channels at once. This was still a manual process that took time for something so repetitive. 
@@ -12,7 +12,7 @@ While Hoot Suite is still useful, Troll Purse set up an environment using [AWS L
 
 ## The Design
 
-![AWS Diagram for Auto Tweeting of Blog Updates](http://drive.google.com/uc?export=view&id=14a46XxEQtMl1t3Mh9-xDm4nsJLwz4nY3 "Auto Tweet Diagram in AWS")
+![AWS Diagram for Auto Tweeting of Blog Updates](https://raw.githubusercontent.com/trollpurse/trollpurse-blog/master/images/trollpurse-blog-automation-diagram.png "Auto Tweet Diagram in AWS")
 
 The overall design is fairly simple. It is listed out in steps below:
 
