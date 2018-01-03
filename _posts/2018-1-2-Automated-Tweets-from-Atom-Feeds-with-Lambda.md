@@ -1,5 +1,5 @@
 ---
-type: post
+layout: post
 title: Automated Tweets from Atom Feeds with Lambda
 image: http://drive.google.com/uc?export=view&id=14a46XxEQtMl1t3Mh9-xDm4nsJLwz4nY3
 ---
