@@ -16,7 +16,7 @@ With this in mind, Troll Purse was able to avoid an issue of using raw HTTP to i
 
 # The Process and Soltuion
 
-## First Crack with C#
+## First Crack with C-Sharp
 
 There is a [Nuget Package](https://www.nuget.org/packages/redditsharp) to integrate .Net Core with a Reddit API; however, it only supports .NET Core 2.0 from nuget (or had no tags for .NET Core 1.0). This was a problem for integration with AWS Lamdas because the Lambdas only execute within a .NET Core 1.0 context. So, we had to move onwards.
 
