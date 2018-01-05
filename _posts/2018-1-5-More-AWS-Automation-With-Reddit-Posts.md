@@ -22,7 +22,7 @@ There is a [Nuget Package](https://www.nuget.org/packages/redditsharp) to integr
 
 ## Second Try with Javascript
 
-A nice fallback, due to the sheer amount of developers, is Javascript for writing AWS Lambdas. Particulary javascript for [NodeJS](https://nodejs.org). Taking a scan of the [Reddit docs for useful APIs](https://github.com/reddit/reddit/wiki/API-Wrappers), Troll Purse came across [this one](https://www.npmjs.com/package/snoowrap). In two lines of code (in regards to the API calls) Troll Purse was able to automate [SNS](https://aws.amazon.com/sns/) receives and submit a link to the [Troll Purse Subreddit](https://www.reddit.com/r/trolpurse/).
+A nice fallback for writing AWS Lambdas and modules, due to the sheer amount of developers, is Javascript. Particulary, Javascript for [NodeJS](https://nodejs.org). Taking a scan of the [Reddit docs for useful APIs](https://github.com/reddit/reddit/wiki/API-Wrappers), Troll Purse came across [this one](https://www.npmjs.com/package/snoowrap). In two lines of code (in regards to the API calls) Troll Purse was able to automate [SNS](https://aws.amazon.com/sns/) receives and submit a link to the [Troll Purse Subreddit](https://www.reddit.com/r/trolpurse/).
 
 ### The Code ( YAY )
 
@@ -74,4 +74,4 @@ Again note how Troll Purse developers use secure environment variables to pass i
 
 # The End
 
-All in all, when a team strips itself the constraint of being married to a language, so much more can get done at a better pace. Having to write an HTTP API Wrapper with OAUTH could have easily increased the development time by as much as four. By elimitation language prejudice, we were able to accomplish our goal in as little as 2 hours (including research). The age of the cloud eliminates the need to fight over picking a language.
+All in all, when a team strips itself the constraint of being married to a language, so much more can get done at a better pace. Having to write an HTTP API Wrapper with OAUTH could have easily increased the development time by as much as four. By elimitating language prejudice, we were able to accomplish our goal in as little as 2 hours (including research). The age of the cloud eliminates the need to fight over picking a language.
