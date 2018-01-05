@@ -14,7 +14,7 @@ One of the most difficult concept to encourage when working in the cloud with te
 
 With this in mind, Troll Purse was able to avoid an issue of using raw HTTP to interact with the Reddit API for posting using OAUTH2. To Note, there is nothing wrong with this approach; however, Troll Purse developers love development speed and not wasting time reinventing the wheel.
 
-# The Process and Soltuion
+# The Process and Solution
 
 ## First Crack with C-Sharp
 
