@@ -33,7 +33,7 @@ public async Task<string> FunctionHandler(SNSEvent input, ILambdaContext context
             var messageContent = JsonConvert.DeserializeObject<BlogContentUpdated>(messageJSONString);
             using (var httpClient = new HttpClient())
             {
-                string payload = $"{{\\"content\\":\\"{messageContent.PostTitle}. {messageContent.ContentSnippet}... {messageContent.PostLink}\\"}}";
+                string payload = $"{{"content":"{messageContent.PostTitle}. {messageContent.ContentSnippet}... {messageContent.PostLink}"}}";
                 var response = await httpClient.PostAsync(Environment.GetEnvironmentVariable("discord_webhook"), new StringContent(payloadEncoding.UTF8, "application/json"));
                 return response.StatusCode.ToString();
             }
