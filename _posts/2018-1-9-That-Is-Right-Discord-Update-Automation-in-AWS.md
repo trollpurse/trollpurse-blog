@@ -4,7 +4,7 @@ title: That Is Right, Discord Update Automation in AWS
 image: https://raw.githubusercontent.com/trollpurse/trollpurse-blog/master/images/discord-logo.png
 ---
 
-Recently, [Troll Purse](http://trollpurse.com) setup a publicly invite for the [Troll Purse Discord Server](https://discord.gg/bQ47YbF). And, as with all things, we decided to test out using [Discord Webhooks](https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to push updates to our members in realtime. This is by far the most effective realtime pushing we have conceived yet. It was so easy, sharing it will be just as easy.
+Recently, [Troll Purse](http://trollpurse.com) setup a public invite for the [Troll Purse Discord Server](https://discord.gg/bQ47YbF). And, as with all things, we decided to test out using [Discord Webhooks](https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to push updates to our members in realtime. This is by far the most effective realtime pushing we have conceived yet. It was so easy, sharing it will be just as easy.
 
 ![Discord Logo](https://raw.githubusercontent.com/trollpurse/trollpurse-blog/master/images/discord-logo.png "Discord Logo")
 
