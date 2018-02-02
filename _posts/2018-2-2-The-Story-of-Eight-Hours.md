@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Designing Player World Interaction in Unreal Engine 4
+title: The Story of Eight Hours
 image: http://media.indiedb.com/images/games/1/61/60992/AppLogo_1176x662.png
 ---
 Troll Purse was started as a means to distribute games under a common title. Today, we will discuss our first distributed game, Eight Hours. Taking on a different model, rather than selling early access games, Troll Purse wants to create games to garner interest in them. If enough interest is found in a game, we continue to develop it at a commercial level. Our first game, [Eight Hours](trollpurse.itch.io/eighthours) is our first attempt at such a model.
