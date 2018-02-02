@@ -33,7 +33,7 @@ The technical work required to create a playable and production ready game with 
 
 So, from those previous prototypes and a desire to bring the real world of the paranormal into a game, Eight Hours was born. Here is a glimpse into what it is all about.
 
-{% include video.html id=OIXRySKh5DA %}
+{% include video.html id="OIXRySKh5DA" %}
 
 ## Game Play
 
