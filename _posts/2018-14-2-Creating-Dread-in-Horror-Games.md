@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating Dread in Horror Games
-image: http://media.indiedb.com/images/games/1/61/60992/AppLogo_1176x662.png
+image: https://raw.githubusercontent.com/trollpurse/trollpurse-blog/master/images/eight_hours_banner.png
 ---
 
 Can you hear it? The slight creak in your office chair, the pop inside the walls of your room, the bones in the house stretching. Are your lights off? Do you still see flickers of shadows out of the corners of your eyes then? Who was that knocking on your door - or, was that just the wind?
