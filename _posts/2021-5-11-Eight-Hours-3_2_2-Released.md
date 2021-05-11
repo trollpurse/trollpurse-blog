@@ -4,6 +4,8 @@ title: Eight Hours 3.2.2 Released!
 image: https://img.itch.zone/aW1nLzU3NjEwMTkucG5n/original/DChnCH.png
 ---
 
+We have a wonderful new UI focused update for this game. After some feedback from our wonderful community we implemented some changes to our Game Settings UI. These fixes address a few issues
+
 ## PLAY NOW
 
 ### [Get on Itch.io](https://trollpurse.itch.io/eighthours)
@@ -11,7 +13,7 @@ image: https://img.itch.zone/aW1nLzU3NjEwMTkucG5n/original/DChnCH.png
 
 ## Update 3.2.2
 
-We have a wonderful new UI focused update for this game. After some feedback from our wonderful community we implemented some changes to our Game Settings UI. These fixes address a few issues
+Here are our major UI updates.
 
 - Scaling on various screen sizes used to clip menu options, this should not be the case anymore
 - Scaling on various screen sizes used to result in super tiny menu text and options, this should not be the case anymore
